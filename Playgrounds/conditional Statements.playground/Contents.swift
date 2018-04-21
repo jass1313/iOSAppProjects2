@@ -11,8 +11,7 @@ func loveCalculator (yourName : String, theirName : String) -> String {
 //        score is > ? < ? than so this line trigger in debug area
     } else if loveScore > 40 && loveScore <= 80 {
         return "You Love score is \(loveScore). you love each other to little bit"
-    }
-    else {
+    } else {
         return "Your Love score is \(loveScore).No Love possible, you'll be forever alone"
     }
 }
