@@ -3,7 +3,7 @@
 func getWeightHeight(howManyKgWeight : Double, howManyFeetHieght : Double) -> String {
     let bmi = howManyKgWeight / (howManyFeetHieght * howManyFeetHieght)
     
-    
+   
     
     var interpretation = ""
     
