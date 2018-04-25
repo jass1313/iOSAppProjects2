@@ -9,9 +9,11 @@
 import Foundation
 
 class QuestionBank {
+//    array
     var list = [Question]()
     
-//    objects
+//    objects have qus and answers
+    //    Qus Bank Class we no required permeters(Blank)
     init() {
         // Creating a quiz item and appending it to the list
         let item = Question(text: "Valentine\'s day is banned in Saudi Arabia.", correctAnswer: true)
