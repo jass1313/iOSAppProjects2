@@ -95,12 +95,16 @@ class ViewController: UIViewController {
         let correctAnswer = allQuestions.list[questionNumber].answer
 //        print answer in debug area
         if correctAnswer == pickedAnswer {
+// i use the 3rd party Objective C library for UI View Answer Correct or wrong after every qusension answer
+            ProgressHUD.showSuccess("Correct")
             print("You got it")
 //            increace the score by 1
             score = score + 1
 //            score += 1
         } else {
             print("wrong")
+//
+            ProgressHUD.showError("Wrong!")
         }
         
 //        let answer = firstQustion.answer
@@ -113,7 +117,7 @@ class ViewController: UIViewController {
        questionNumber = 0
 //        call the method func cuz next Qus already set to restart Quiz when Quiz is end so we need here for restart
         nextQuestion()
-//        resetart score label
+//        reset score label
         score = 0
         
     
