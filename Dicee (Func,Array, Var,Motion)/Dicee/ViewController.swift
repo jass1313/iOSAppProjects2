@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//
+        
+        
         //random By default When Start the app (2Ways)
 //        randomDiceIndex1 = Int(arc4random_uniform(6))
 //        randomDiceIndex2 = Int(arc4random_uniform(6))
