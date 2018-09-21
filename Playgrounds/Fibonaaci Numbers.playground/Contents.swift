@@ -6,9 +6,9 @@
  */
 import UIKit
 
-func fibonacci (until n :Int) {
-    print(0)
-print(0)
+func fibonacci (until n : Int) {
+//    print(0)
+//print(0)
 
 var num1 = 0
 var num2 = 1
